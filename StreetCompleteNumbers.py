@@ -89,7 +89,7 @@ def ChangeSetsToStreetCompleteNumbers(changesets):
     return total, quests
 
 def StreetCompleteNumbers(user, maximum=200):
-    print(ChangeSetsToStreetCompleteNumbers(cleanChangeSets(getUserChangeSets(schlechtesErsetzen(user), maximum))))
+    return ChangeSetsToStreetCompleteNumbers(cleanChangeSets(getUserChangeSets(schlechtesErsetzen(user), maximum)))
 
 def getIDhaeufig(changesets):
     ids = {}
