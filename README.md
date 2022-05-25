@@ -1,6 +1,6 @@
 # StreetCompleteNumbers
 
-StreetCompleteNumbers is a python script to get the number of solved [StreetComplete](https://github.com/streetcomplete/StreetComplete)-Quests for a user.
+StreetCompleteNumbers is a python script to get the number of solved [StreetComplete](https://github.com/streetcomplete/StreetComplete)-Quests for a user ny querying [OpenStreetMap API](https://wiki.openstreetmap.org/wiki/API_v0.6).
 
 ## Usage
 
